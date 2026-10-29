@@ -111,3 +111,7 @@ malformed files. The tests check:
 
 Outputs are verified both with the project's reader and independently with
 `gzip` and `awk`.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
