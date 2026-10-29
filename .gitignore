@@ -1,0 +1,26 @@
+# Build artifacts
+/pairsplit
+nimcache/
+nimblecache/
+htmldocs/
+*.exe
+*.dSYM/
+
+# Local dependencies
+nimbledeps/
+
+# Test data / outputs
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Tests: generated data, outputs and compiled test binaries
+tests/data/
+tests/out/
+tests/*
+!tests/*.nim
+!tests/config.nims
