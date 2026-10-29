@@ -1,5 +1,8 @@
 # pairsplit
 
+> [!Warning]
+> This project was fully vibe coded by Claude
+
 Randomly split paired-end FASTQ files into disjoint, evenly sized pairs of
 FASTQ files. Mates always stay together, and every read pair lands in at most
 one split.
